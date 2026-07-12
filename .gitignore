@@ -3,13 +3,19 @@
 pyvenv.cfg
 Scripts/
 __pycache__
+Lib/
 
 # Ignore large data folders of images
 *.png
 *.mp4
 
-# Libs
-Lib
+# Hollow out data folder
+data/RUGD_annotations/*
+!data/RUGD_annotations/.gitkeep
 
-# Log file
+data/RUGD_frames-with-annotations/*
+!data/RUGD_frames-with-annotations/.gitkeep
+
+
+# Temporary log file
 log.txt
