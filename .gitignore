@@ -1,4 +1,15 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+# misplaced venv
+pyvenv.cfg
+Scripts/
+__pycache__
 
 # Ignore large data folders of images
 *.png
+*.mp4
+
+# Libs
+Lib
+
+# Log file
+log.txt
